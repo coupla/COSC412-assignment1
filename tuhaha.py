@@ -18,7 +18,7 @@ for files in os.listdir(path):
 
 print(len(lines))
 oneline = ''.join(lines)
-oneline = re.sub(r"[^aeiouhkmnoprtwg ]", "", oneline)
+oneline = re.sub(r"[^aeiouhkmnprtwg ]", "", oneline)
 clump = oneline.replace(' ','')
 split = oneline.split()
 dictionary = []
